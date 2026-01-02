@@ -3,7 +3,7 @@
 MyNotesApp is a mobile note-taking application built with **React Native (Expo)** and **Firebase**.  
 It allows users to create, manage, and organize notes with categories, colors, deadlines, and real-time synchronization.
 
-## ✨ Features
+## Features
 
 ### Authentication (Firebase Auth)
 - Sign up with email and password
@@ -31,7 +31,7 @@ It allows users to create, manage, and organize notes with categories, colors, d
 - Swipe left to delete a note
 - Completed notes are visually highlighted
 
-## 🛠️ Tech Stack
+## Tech Stack
 - React Native
 - Expo
 - Firebase Authentication
