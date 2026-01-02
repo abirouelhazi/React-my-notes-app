@@ -57,7 +57,7 @@ It allows users to create, manage, and organize notes with categories, colors, d
 4. Start the application:
    npx expo start
 
-5.Scan the QR code using the Expo Go app on your mobile device.
+5. Scan the QR code using the Expo Go app on your mobile device.
 
 ### Firebase Setup
 
