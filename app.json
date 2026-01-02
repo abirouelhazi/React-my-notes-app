@@ -13,14 +13,21 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "usesAppleSignIn": false,
+      "bundleIdentifier": "com.tonnom.mynotesapp",
+      "infoPlist": {
+        "NSUserNotificationUsageDescription": "Cette application utilise les notifications pour te rappeler tes notes importantes."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "permissions": ["NOTIFICATIONS"],
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.MyNotesApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
